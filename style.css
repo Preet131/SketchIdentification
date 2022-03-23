@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+
+
+body{
+    background-color: #fbd139;
+}
+
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size:40px;
+    color: green;
+    margin-bottom: 35px;
+    text-shadow: 5px 5px 10px white;
+}
+
+#show_sketch{
+    float: right;
+    margin-right: 15px;
+    position: absolute;
+    right: 15px;
+    font-size: 23px;
+}
+
+
+p{
+    font-size: 28px;
+    font-weight: 500;
+}
+
+
+#clear{
+    font-size: 23px;
+    margin-top: 20px;
+}
+
+
+canvas{
+    margin-top: 10%;
+    border-radius: 10%;
+    border: white 5px solid;
+    animation-name: canvas;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes canvas {
+    0%{box-shadow: 0 0 40px rgb(110, 255, 224);}
+    50%{box-shadow: 0 0 40px red;}
+    100%{box-shadow: 0 0 40px rgb(110, 255, 224);}
+}
+
+
+#introModal
+{
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+#introHeading{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 60px;
+    margin-top: 10%;
+    text-shadow: 5px 5px yellow;
+
+}
+
+h2{
+    color: #fbd139;
+    font-size: 40px;
+    text-shadow: 2px 2px #bb9b27;
+}
+
+#gotBtn{
+    padding: 15px;
+    margin: 10% 0;
+    font-size: 40px;
+    background-color: #fbd139;
+    border: none;
+    box-shadow: -10px 10px 0 #bb9b27;
+    width: 250px;
+    height: 100px;
+    transition: 0.8s;
+}
+
+
+#gotBtn:hover{
+    box-shadow: none;
+}
